@@ -6,13 +6,14 @@
 
 
 
-### Useful commands:
+#### Useful commands:
 
 ```bash
+# run shell inside container
 docker exec -it async_cpp bash
-```
 
-```bash
+
+# build with cmake 
 cmake -S . -B build_debug -D CMAKE_BUILD_TYPE=Debug
 cmake --build build_debug
 ctest --test-dir build_debug
