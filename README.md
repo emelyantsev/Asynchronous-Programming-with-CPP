@@ -2,6 +2,7 @@
 
 
 3. [How to Create and Manage Threads in C++](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_03)
+4. [Thread Synchronization with Locks](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_04)
 
 
 
