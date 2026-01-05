@@ -1,0 +1,11 @@
+# Ignore files without extension
+*
+!/**/
+!*.*
+!Dockerfile
+
+build
+build_debug
+build_release
+
+Testing
