@@ -3,10 +3,8 @@ project(MyBenchmark)
 
 set(CMAKE_CXX_STANDARD 17)
 
-# Поиск библиотеки (она уже в /usr/local благодаря make install)
 find_package(benchmark REQUIRED)
 
 add_executable(run_bench source.cpp)
 
-# Линовка
 target_link_libraries(run_bench benchmark::benchmark)

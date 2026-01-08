@@ -3,15 +3,13 @@
 
 3. [How to Create and Manage Threads in C++](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_03)
 4. [Thread Synchronization with Locks](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_04)
+5. [Atomic operations](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_05)
 
 
-
-#### Useful commands:
 
 ```bash
 # run shell inside container
 docker exec -it async_cpp bash
-
 
 # build with cmake 
 cmake -S . -B build_debug -D CMAKE_BUILD_TYPE=Debug
@@ -20,5 +18,5 @@ ctest --test-dir build_debug
 
 # build benchmark
 cmake -S . -B build  -DCMAKE_BUILD_TYPE=Release
-
+cmake --build build
 ```
