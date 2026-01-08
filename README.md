@@ -17,4 +17,8 @@ docker exec -it async_cpp bash
 cmake -S . -B build_debug -D CMAKE_BUILD_TYPE=Debug
 cmake --build build_debug
 ctest --test-dir build_debug
+
+# build benchmark
+cmake -S . -B build  -DCMAKE_BUILD_TYPE=Release
+
 ```
