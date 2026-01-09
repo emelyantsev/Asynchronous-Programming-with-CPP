@@ -23,7 +23,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++ build all *.cpp in folder",
+            "preLaunchTask": "DEBUG - C/C++: g++ build all *.cpp in folder",
             "miDebuggerPath": "/usr/bin/gdb"
         },
 
