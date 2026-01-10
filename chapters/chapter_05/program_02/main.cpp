@@ -1,3 +1,5 @@
+// thread progress
+
 #include <atomic>
 #include <chrono>
 #include <iostream>
@@ -34,6 +36,8 @@ int main() {
         
         std::this_thread::sleep_for(1s);
     }
+
+    std::cout << std::endl;
 
     worker.join();
 

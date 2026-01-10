@@ -16,6 +16,7 @@
                 "-I", "${workspaceFolder}/common",
                 "-L/usr/local/lib/",
                 "-lboost_thread",
+                "-latomic",
                 "-o",
                 "${fileDirname}/${fileDirnameBasename}"
             ],
@@ -47,6 +48,7 @@
                 "-I", "${workspaceFolder}/common",
                 "-L/usr/local/lib/",
                 "-lboost_thread",
+                 "-latomic",
                 "-o", "${fileDirname}/${fileDirnameBasename}_release" 
             ],
             "options": {
