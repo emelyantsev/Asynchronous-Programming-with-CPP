@@ -1,4 +1,4 @@
-### Asynchronous programming with C++:
+### Concurrent and asynchronous programming with C++:
 
 
 3. [How to Create and Manage Threads in C++](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_03)
@@ -29,14 +29,14 @@ cmake --build build
 ```
 
 
-#### Benchmark results
+#### Benchmarks results
 
-2. [Async future benchmark](benchmarks/02_async_future/source.cpp)
+2. [Async future benchmark source](benchmarks/02_async_future/source.cpp)
 
 ![Async future benchmark](benchmarks/02_async_future/results/benchmark_plot.png)
 
 <details>
-<summary>Click to view raw console output</summary>
+<summary>Async future benchmark console output</summary>
 
 ```console
 Run on (8 X 3696.01 MHz CPU s)
