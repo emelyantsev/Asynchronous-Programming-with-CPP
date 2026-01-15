@@ -9,3 +9,5 @@ build_debug
 build_release
 
 Testing
+
+env

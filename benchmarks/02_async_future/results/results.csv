@@ -1,0 +1,14 @@
+2026-01-15T14:54:27+00:00
+Running build/run_bench
+Run on (8 X 3696.01 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x4)
+  L1 Instruction 32 KiB (x4)
+  L2 Unified 256 KiB (x4)
+  L3 Unified 20480 KiB (x1)
+Load Average: 0.24, 0.22, 0.11
+name,iterations,real_time,cpu_time,time_unit,bytes_per_second,items_per_second,label,error_occurred,error_message
+"BM_Async_Discarding/32",674,1.79002e+06,987054,ns,,,,,
+"BM_Async_Reusing/32",881,847071,790595,ns,,,,,
+"BM_Async_Parallel/32",580,1.20408e+06,1.19089e+06,ns,,,,,
+"BM_ThreadPool/32",2013,480371,346177,ns,,,,,
