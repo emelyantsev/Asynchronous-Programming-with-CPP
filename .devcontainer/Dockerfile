@@ -18,3 +18,9 @@ RUN git clone https://github.com/google/benchmark.git /tmp/benchmark \
     && make -j$(nproc) \
     && make install \
     && rm -rf /tmp/benchmark
+
+RUN apt install software-properties-common -y \
+    && add-apt-repository ppa:ubuntu-toolchain-r/test \
+    && apt update \
+    && apt install gcc-14 g++-14 \
+    && update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-14 14 --slave /usr/bin/g++ g++ /usr/bin/g++-14

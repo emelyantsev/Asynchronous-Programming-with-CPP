@@ -5,7 +5,7 @@
             "label": "DEBUG - C/C++: g++ build all *.cpp in folder",
             "command": "/usr/bin/g++",
             "args": [
-                "-std=c++20",
+                "-std=c++23",
                 "-Wall",
                 "-Wextra",
                 "-pedantic",
@@ -37,7 +37,7 @@
             "label": "RELEASE - C/C++: g++ build all *.cpp in folder",
             "command": "/usr/bin/g++",
             "args": [
-                "-std=c++20",
+                "-std=c++23",
                 "-O3",
                 "-DNDEBUG",
                 "-Wall",

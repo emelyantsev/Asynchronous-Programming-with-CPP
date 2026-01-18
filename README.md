@@ -6,6 +6,7 @@
 5. [Atomic operations](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_05)
 6. [Promises and futures](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_06)
 7. [The async function](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_07)
+8. [Coroutines](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_08)
 
 
 
@@ -87,3 +88,15 @@ BM_ThreadPoolPerRow/256       2894 us          323 us         1000
 BM_ThreadPoolPerRow/512      27090 us         1303 us          100 ThreadsCreated=8
 ```
 </details>
+
+
+### How to update gcc:
+
+```bash
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt update
+sudo apt install gcc-14 g++-14
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-14 14 --slave /usr/bin/g++ g++ /usr/bin/g++-14
+sudo update-alternatives --config gcc
+```
