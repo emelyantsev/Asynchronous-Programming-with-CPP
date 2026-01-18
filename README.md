@@ -29,14 +29,14 @@ cmake --build build
 ```
 
 
-#### Benchmarks results
+#### Benchmarks:
 
 2. [Async future](benchmarks/02_async_future/source.cpp)
 
 ![Async future](benchmarks/02_async_future/results/benchmark_plot.png)
 
 <details>
-<summary>"Async future" console output</summary>
+<summary>Show "Async future" console output</summary>
 
 ```console
 Run on (8 X 3696.01 MHz CPU s)
@@ -64,7 +64,7 @@ BM_ThreadPool/32           480371 ns       346177 ns         2013
 ![Matrix multiplication](./benchmarks/03_matrix_multiplication/results/img3.png)
 
 <details>
-<summary>"Matrix multiplication" console output</summary>
+<summary>Show "Matrix multiplication" console output</summary>
 
 ```console
 Run on (8 X 3696.01 MHz CPU s)
