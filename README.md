@@ -59,9 +59,9 @@ BM_ThreadPool/32           480371 ns       346177 ns         2013
 
 3. [Matrix multiplication](benchmarks/03_matrix_multiplication/source.cpp)
 
-![Matrix multiplication]](./benchmarks/03_matrix_multiplication/results/img1.png)
-![Matrix multiplication]](./benchmarks/03_matrix_multiplication/results/img2.png)
-![Matrix multiplication]](./benchmarks/03_matrix_multiplication/results/img3.png)
+![Matrix multiplication](./benchmarks/03_matrix_multiplication/results/img1.png)
+![Matrix multiplication](./benchmarks/03_matrix_multiplication/results/img2.png)
+![Matrix multiplication](./benchmarks/03_matrix_multiplication/results/img3.png)
 
 <details>
 <summary>"Matrix multiplication" console output</summary>
