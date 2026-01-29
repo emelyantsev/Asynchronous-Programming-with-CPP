@@ -1,12 +1,14 @@
 ### Concurrent and asynchronous programming with C++:
 
 
-3. [How to Create and Manage Threads in C++](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_03)
-4. [Thread Synchronization with Locks](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_04)
-5. [Atomic operations](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_05)
-6. [Promises and futures](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_06)
-7. [The async function](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_07)
-8. [Coroutines](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_08)
+- [x] 3. [How to Create and Manage Threads in C++](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_03)
+- [x] 4. [Thread Synchronization with Locks](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_04)
+- [x] 5. [Atomic operations](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_05)
+- [x] 6. [Promises and futures](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_06)
+- [x] 7. [The async function](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_07)
+- [x] 8. [Coroutines](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_08)
+- [ ] 9. [Asynchronous Programming Using Boost.Asio](./chapters/chapter_09)
+- [ ] 9. [Asynchronous Programming Using Boost.Asio](./chapters/chapter_09)
 
 
 
@@ -100,3 +102,9 @@ sudo apt install gcc-14 g++-14
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-14 14 --slave /usr/bin/g++ g++ /usr/bin/g++-14
 sudo update-alternatives --config gcc
 ```
+
+### Useful links:
+
+- [CppCon 2016: James McNellis “Introduction to C++ Coroutines"](https://www.youtube.com/watch?v=ZTqHjjm86Bw&pp)
+- [Использование корутин в C++20 | Алексей Озерицкий, Яндекс](https://www.youtube.com/watch?v=QyUL03JE2Sw&pp)
+
