@@ -106,5 +106,5 @@ sudo update-alternatives --config gcc
 ### Useful links:
 
 - [CppCon 2016: James McNellis “Introduction to C++ Coroutines"](https://www.youtube.com/watch?v=ZTqHjjm86Bw&pp)
-- [Использование корутин в C++20 | Алексей Озерицкий, Яндекс](https://www.youtube.com/watch?v=QyUL03JE2Sw&pp)
+- [Использование корутин в C++20](https://www.youtube.com/watch?v=QyUL03JE2Sw&pp)
 
