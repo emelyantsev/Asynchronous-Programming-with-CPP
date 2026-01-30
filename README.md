@@ -6,9 +6,12 @@
 - [x] 5. [Atomic operations](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_05)
 - [x] 6. [Promises and futures](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_06)
 - [x] 7. [The async function](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_07)
-- [x] 8. [Coroutines](https://github.com/emelyantsev/Asynchronous-Programming-with-CPP/tree/main/chapters/chapter_08)
+- [x] 8. [Coroutines](./chapters/chapter_08)
 - [ ] 9. [Asynchronous Programming Using Boost.Asio](./chapters/chapter_09)
-- [ ] 9. [Asynchronous Programming Using Boost.Asio](./chapters/chapter_09)
+- [ ] 10. [Coroutines with Boost.Cobalt](./chapters/chapter_10)
+- [ ] 11. [Logging and Debugging Asynchronous Software](./chapters/chapter_11)
+- [ ] 12. [Sanitizing and Testing Asynchronous Software](./chapters/chapter_12) 
+- [ ] 13. [Improving Asynchronous Software Per formance](./chapters/chapter_13)  
 
 
 
